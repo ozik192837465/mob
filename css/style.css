@@ -174,7 +174,6 @@ hr {
 /*Content*/
 .content {
   padding-top: 40px;
-  margin-left: 250px;
   display: flex;
   flex-direction: row;
   justify-content: center;
