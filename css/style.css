@@ -104,7 +104,7 @@ hr {
 
 .buttons {
   position: relative;
-  left : 42px;
+  left : 82px;
   width: 500px;
   display: flex;
   flex-direction: row;
@@ -174,7 +174,7 @@ hr {
 /*Content*/
 .content {
   padding-top: 40px;
-  margin-left: 80px;
+  margin-left: 115px;
   display: flex;
   flex-direction: row;
   justify-content: center;
