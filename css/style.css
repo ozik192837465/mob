@@ -201,7 +201,7 @@ hr {
   display: flex;
   flex-direction: column;
   position: relative;
-  right: -22px;
+  right: -50px;
 }
 .first-graph-header {
   display: flex;
