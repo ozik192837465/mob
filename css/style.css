@@ -1,0 +1,742 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+@font-face{
+font-family: 'Open Sans';
+src: url('opensans.ttf');
+}
+a, p,h2, h3, div {
+  font-family: "Open Sans";
+}
+hr {
+  height: 1px;
+  background-color: #e8e8e8;
+}
+#application{
+  display: none;
+}
+.hero-carousel {
+  width: 151%;
+}
+/*Первые три блока*/
+.first-line {
+  margin-left: 30px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.first-left {
+  background-color: #2da907;
+  width: 455px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 0.3;
+}
+
+.left-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.left-num {
+  text-align: center;
+  color: #fff;
+  font-size: 48.7px;
+  text-transform: uppercase;
+}
+
+.first-center {
+  background-color: #2da907;
+  width: 212px;
+  height: 100px;
+  margin-right: 40px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.center-text {
+  padding-top: 10px;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.center-num {
+  text-align: center;
+  color: #fff;
+  font-size: 48.7px;
+  text-transform: uppercase;
+}
+
+.first-right {
+  background-color:  #ffa800;
+  width: 212px;
+  height: 100px;
+}
+
+.right-text {
+  padding-top: 15px;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.right-num {
+  text-align: center;
+  color: #fff;
+  font-size: 48.7px;
+  text-transform: uppercase;
+}
+
+
+/*Кнопки*/
+
+.buttons {
+  position: relative;
+  left : 42px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.buttons a {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#first-button {
+  display: block;
+  border-radius: 50px;
+  background-color:  #0041a3;
+  color:  #fff;
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+}
+#second-button, #third-button {
+  color:  #3c3c3c;
+  width: 100px;
+  height: 30px;
+}
+#third-button {
+  width: 100px;
+  height: 30px;
+}
+
+#first-button:hover {
+  display: block;
+  border-radius: 50px;
+  background-color:  #0041a3;
+  color:  #fff;
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+}
+#second-button:hover {
+  display: block;
+  border-radius: 50px;
+  background-color:  #0041a3;
+  color:  #fff;
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+}
+#third-button:hover {
+  display: block;
+  border-radius: 50px;
+  background-color:  #0041a3;
+  color:  #fff;
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+}
+
+
+/*Content*/
+.content {
+  padding-top: 40px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
+  flex-wrap: wrap
+}
+
+.left-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-row {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.first-graph {
+  background-color:  #e8e8e8;
+  width: 790px;
+  height: 421px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: -22px;
+}
+.first-graph-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.first-graph-buttons {
+  margin-top: 25px;
+}
+
+.first-graph-buttons a {
+}
+
+.first-graph-buttons-1 {
+  width: 190px;
+}
+.first-graph-buttons-2 {
+  width: 110px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.first-graph-buttons-3 {
+  width: 120px;
+}
+
+.first-graph-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.first-graph-text-1 {
+  color:  #3c3c3c;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 13px;
+  margin-top: 5px;
+}
+.first-graph-text-2 {
+  color:  #3c3c3c;
+  font-size: 28.05px;
+  margin-left: 18px;
+}
+
+#second-graph {
+  height: 382px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: -22px;
+}
+#second-graph h2 {
+  margin-top: -5px;
+  text-decoration: underline;
+  color:  #3c3c3c;
+  font-size: 24px;
+}
+.second-graph-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.second-graph-res {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.second-graph-header>div {
+  margin-left: 27px;
+  text-transform: uppercase;
+}
+.second-graph-res>div {
+  margin-left: 28px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.second-graph-res>div:first-child {
+  margin-right: 12px;
+}
+.second-graph-res>div:nth-child(2) {
+  margin-right: 6px;
+}
+
+.second-graph-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.second-graph-table>div>div {
+  text-align: center;
+  line-height: 1.6;
+}
+
+#first-block {
+  background-color:  #e8e8e8;
+  width: 213px;
+  height: 422px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.first-block-caption {
+  margin-top: 10px;
+}
+.first-block-caption a {
+  display: block;
+  background-color:  #ffffff;
+  box-shadow: 0px 2px 3.96px 0.04px rgba(0, 0, 0, 0.19);
+  border-radius: 50px;
+  height: 30px;
+  text-align: center;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.first-block-text p {
+  color:  #3c3c3c;
+  font-size: 20.27px;
+  text-align: center;
+}
+.first-block-text a {
+  color:  #3c3c3c;
+  font-size: 20.27px;
+  font-weight: 700;
+}
+.first-block-content {
+  display: grid;
+  grid-template-columns: 80px 60px 60px ;
+  grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 20px 20px 20px 20px 20px 20px 20px;
+}
+.first-block-content div {
+  text-align: center;
+  color:  #3c3c3c;
+}
+.first-block-caption a {
+  text-decoration: none;
+}
+.first-block-caption select  {
+  display: block;
+  background-color:  #ffffff;
+  box-shadow: 0px 2px 3.96px 0.04px rgba(0, 0, 0, 0.19);
+  border-radius: 50px;
+  height: 40px;
+  width: 350px;
+  line-height: 1.9;
+  cursor: pointer;
+  position: relative;
+  left : 45px;
+  outline: none;
+  overflow: hidden;
+  background: white url(../button3.png) no-repeat 320px 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+
+#second-block {
+  background-color:  #dddddd;
+  width: 213px;
+  height: 382px;
+}
+#second-block>p {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+#second-block a {
+  color:  #0061cf;
+  font-size: 14px;
+  color:  #0061cf;
+}
+.second-block-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.left-col {
+  margin-top: -20px;
+  line-height: 1;
+}
+.left-col p{
+  color:  #3c3c3c;
+font-size: 14px;
+font-weight: 400;
+text-decoration: underline;
+}
+.right-col {
+  margin-top: -15px;
+  line-height: 2.2;
+}
+
+@media screen and (min-width: 1920px)  {
+  .buttons {
+    position: relative;
+    left: 150px;
+  }
+  .third-button {
+    width: 350px;
+}
+.third-button {
+width: 350px;
+}
+#application{
+  display: none;
+}
+}
+@media screen and (min-width: 1600px)  {
+  .buttons {
+    margin-left: 350px;
+  }
+  #application{
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px)  {
+  .first-line {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 230px;
+  }
+  #application{
+    display: none;
+  }
+  .left-text {
+    padding-top: 20px;
+    font-size: 10px;
+  }
+  .left-num {
+    font-size: 30px;
+  }
+
+  .center-text {
+    font-size: 10px;
+  }
+  .center-num {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+
+  .right-row {
+    position: relative;
+    right: -1.5px;
+  }
+  .right-text {
+    margin-top: -10px;
+    font-size: 10px;
+  }
+  .right-num {
+    font-size: 30px;
+  }
+  .first-left {
+    margin-left: 300px;
+    width: 350px;
+    height: 50px;
+  }
+  .first-center {
+    margin-left: 230px;
+    width: 400px;
+    margin-top: 10px;
+    height: 50px;
+  }
+  .first-right {
+    margin-left: 230px;
+    width: 400px;
+    margin-top: 10px;
+    height: 50px;
+  }
+  #first-block {
+    margin-top: 30px;
+    width: 700px;
+  }
+  .first-block-content {
+    display: grid;
+    grid-template-columns: 200px 200px 200px ;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 20px 20px 20px 20px 20px 20px 20px;
+  }
+  #second-block {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .content {
+    position: relative;
+    left: 15px;
+  }
+  #all-content{
+    position: relative;
+    top : -30px;
+  }
+  .first-left {
+    margin-left: -5px;
+    width: 300px;
+  }
+  .first-center {
+    margin-left: -5px;
+    width: 300px;
+    margin-top: 10px;
+  }
+  .first-right {
+    margin-left: -5px;
+    width: 300px;
+    margin-top: 10px;
+  }
+  .buttons {
+    margin-left: -50px;
+  }
+  #first-button {
+    font-size: 16px;
+  }
+  #second-button, #third-button {
+    font-size: 16px;
+    margin-left: -100px;
+  }
+  .first-graph {
+    width: 450px;
+    height: 300px;
+  }
+  .first-graph-content>img{
+    width: 450px;
+    margin-top: 30px;
+  }
+  .first-graph-buttons {
+  }
+
+  .first-graph-buttons a {
+    font-size: 10px;
+      height: 43px;
+  }
+
+  .first-graph-buttons-1 {
+    width: 80px;
+    display: block;
+    font-size: 20px;
+    background-color:  #ffffff;
+    box-shadow: 0px 2px 3.96px 0.04px rgba(0, 0, 0, 0.19);
+    border-radius: 50px;
+    height: 40px;
+    text-align: center;
+    line-height: 0.9;
+    cursor: pointer;
+    position: relative;
+    left : -50px;
+    top : -5px;
+  }
+  .first-graph-buttons-2 {
+    width: 60px;
+    position: relative;
+    top : -37px;
+    left: 40px;
+    display: block;
+    font-size: 12px;
+    background-color:  #ffffff;
+    box-shadow: 0px 2px 3.96px 0.04px rgba(0, 0, 0, 0.19);
+    border-radius: 50px;
+    height: 27px;
+    text-align: center;
+    line-height: 1.9;
+    cursor: pointer;
+  }
+  .first-graph-buttons-3 {
+    width: 60px;
+    position: relative;
+    top : -63px;
+    left:130px;
+    display: block;
+    font-size: 12px;
+    background-color:  #ffffff;
+    box-shadow: 0px 2px 3.96px 0.04px rgba(0, 0, 0, 0.19);
+    border-radius: 50px;
+    height: 25px;
+    text-align: center;
+    line-height: 1.9;
+    cursor: pointer;
+  }
+  .first-graph-text {
+    margin-top: 10px;
+    position: relative;
+    left : 10px;
+  }
+  .first-graph-text-1 {
+    font-size: 12px;
+    line-height: 13px;
+  }
+  .first-graph-text-2 {
+    font-size: 20px;
+  }
+  #first-block {
+    width: 450px;
+    height: 450px;
+    margin-top: -60px;
+  }
+  #second-block {
+    width: 450px;
+  }
+   .first-block-content {
+    position: relative;
+    left : 50px;
+  }
+    .first-block-text  {
+      position: relative;
+      left : 10px;
+    }
+  .second-graph-caption>h2 {
+    font-size: 20px;
+  }
+  .second-graph-header {
+    font-size: 15px;
+  }
+  .second-graph-header>div:nth-child(1) {
+    margin-right: 20px;
+  }
+  .second-graph-header>div:nth-child(2) {
+    margin-right: 13px;
+  }
+  .second-graph-header>div:nth-child(3) {
+    margin-right: 15px;
+  }
+  .second-graph-table-1 {
+    font-size: 10px;
+  }
+  .second-graph-table-2 {
+    font-size: 10px;
+  }
+  .second-graph-table-3 img {
+    width: 100px;
+    height: 156px;
+    position: relative;
+    top : 5px;
+  }
+  .second-graph-table-4 {
+    font-size: 10px;
+  }
+  .second-graph-table-5 {
+    font-size: 10px;
+  }
+  .second-graph-table-6 {
+    font-size: 10px;
+  }
+  .second-graph-table-7 {
+    font-size: 10px;
+  }
+  .second-graph-header>div {
+    margin-left: 5px;
+    font-size: 10px;
+  }
+  .second-graph-res>div {
+    font-size: 10px;
+  }
+  .second-graph-res>div:first-child {
+    position: relative;
+    left: 20px;
+  }
+  .second-graph-res>div:nth-child(2) {
+    position: relative;
+    left: 12px;
+  }
+  .first-block-content {
+    display: grid;
+    grid-template-columns: 120px 120px 120px ;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 20px 20px 20px 20px 20px 20px 20px;
+  }
+  #application{
+    display: none;
+  }
+  #application>div>p {
+    color:  #3c3c3c;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -90px;
+  }
+  .city {
+    position: relative;
+    left: 17px;
+  }
+  .img_1 {
+    position: relative;
+    top : -35px;
+    left : -17px;
+  }
+  .grey-blok {
+    background: #ddd;
+    height: 25px;
+    width: 450px;
+    position: relative;
+    top : -25px;
+    left : -15px;
+  }
+  .img_2 {
+    position: relative;
+    top : -35px;
+    left : -17px;
+  }
+  .img_3 {
+    position: relative;
+    top : -35px;
+    left : -17px;
+  }
+  .img_4 {
+    position: relative;
+    top : -35px;
+    left : -17px;
+  }
+  .nab-chel {
+    position: relative;
+    top : -15px;
+  }
+  .nig {
+    position: relative;
+    top : -20px;
+  }
+}
+@media screen and (max-width: 333px) {
+  .hero-carousel {
+    width: 175%;
+  }
+  .content {
+    position: relative;
+    left: 60px;
+  }
+  .second-graph-res>div:first-child {
+    position: relative;
+    left: 10px;
+  }
+  .second-graph-res>div:nth-child(2) {
+    position: relative;
+    left: 5px;
+  }
+  .buttons {
+    position: relative;
+    left: 70px;
+  }
+}
